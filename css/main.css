@@ -9,7 +9,7 @@ html {
 }
 
 header {
-  margin: 0;
+  margin: auto;
   padding: .7rem;
   background-color: #e2e2e2;
   display: flex;

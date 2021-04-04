@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-img {
+header img {
   width: 2rem;
 }
 
@@ -23,14 +23,14 @@ header {
   align-items: center;
 }
 
-header ul {
+nav ul {
   list-style-type: none;
   background-color: red;
   display: flex;
   justify-content: space-between;
 }
 
-header ul li a {
+nav a {
   text-decoration: none;
   padding: 1em;
   font-size: 1.125rem;

@@ -8,24 +8,43 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  margin: 0;
+  padding: .7rem;
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
 header img {
+  margin: .5rem;
+  padding: 0;
   width: 2rem;
+  order: -1;
+}
+
+header h1 {
+  margin: .5rem;
+}
+
+header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  flex-grow: 1;
 }
 
 body {
   margin: 0;
 }
-header {
-  margin: 0;
-  background-color: #e2e2e2;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 
 nav ul {
+  margin: .5rem;
   list-style-type: none;
-  background-color: red;
   display: flex;
   justify-content: space-between;
 }
@@ -34,4 +53,8 @@ nav a {
   text-decoration: none;
   padding: 1em;
   font-size: 1.125rem;
+}
+
+nav a:hover {
+  color: #0074d9;
 }

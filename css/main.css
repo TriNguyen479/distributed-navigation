@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 2rem;
+}
+
+body {
+  margin: 0;
+}
+header {
+  margin: 0;
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.125rem;
+}
